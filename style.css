@@ -101,7 +101,9 @@ body {
     padding: 10px;
     background-color: white;
     cursor: pointer;
-    box-sizing: border-box;
+    height: 220px;
+    margin-bottom: 12px;
+
 }
 
 .box > img {
@@ -137,13 +139,14 @@ body {
 
 .box-selected {
     border: 5px solid #32B72F;
+    padding: 5px;
     
 }
 
 .price {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:stretch;
 
 }
 
@@ -201,3 +204,43 @@ button {
     text-align: center;
     border: none;
 }
+
+.button-available {
+    background-color: #32B72F;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/*
+.confirmation-bar {
+width: 100%;
+height: 100%;
+opacity: 0.5;
+background-color: white;
+position: fixed;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.hiden {
+    display: none;
+}
+
+.confirmation {
+    height: 50%;
+    width: 400px;
+    max-width: 80%;
+    border-radius: 9px;
+    background-color: #50D074;
+    margin-bottom: 92px;
+    z-index: 1;
+    outline-color: white;
+    border:rgba(255, 255, 255, 0.50)
+    função que deixa tudo que está fora opaco.
+}
+*/
